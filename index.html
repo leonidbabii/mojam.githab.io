@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mojam</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container-fluid">
+      <div class="header__inner">
+        <div class="mobile__nav">
+           <button class="burger" aria-label="Открыть меню" aria-expanded="false" data-burger>
+             <span class="burger__line"></span>
+           </button>
+           <div class="mobile__logo">
+             <a class="logo__link" href="#">
+               <img class="logo__icon" src="img/logo.svg" loading="lazy" alt="Логотип компании">
+             </a>
+           </div>
+           <div class="lang__item">
+             <a class="lang__link" href="#">ru</a>
+           </div>
+        </div>
+        <div class="logo">
+          <a class="logo__link" href="#">
+            <img class="logo__icon" src="img/logo.svg" loading="lazy" alt="Логотип компании">
+          </a>
+        </div>
+        <nav class="nav">
+          <ul class="nav__list list-reset">
+            <li class="nav__item"><a href="#" class="nav__link">
+                Карьера в компании
+              </a>
+            </li>
+            <li class="nav__item"><a href="#" class="nav__link">
+                Бонусы сотрудникам
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                Наша команда
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                Истории
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                О нас
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="social list-reset">
+          <li class="social__item">
+            <a href="#" target="_blank" class="social__link" aria-label="Наша страничка в Линкедине">
+              <img src="img/social/linkedin.svg" alt="linkedin icon">
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="#" target="_blank" class="social__link" aria-label="Наша страничка во Фейсбуке">
+              <img src="img/social/face.svg" alt="face icon">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="hero">
+      <div class="container-fluid">
+        <div class="decor header__rect">
+          <img src="img/dots/rectangle.svg" alt="">
+        </div>
+        <div class="container">
+          <div class="mobile__decor">
+            <img src="img/dots/hero__circle-mob.svg" alt="hero">
+          </div>
+          <div class="pages">
+            <p class="page list-reset">
+              <a class="page__item" href="#">Главная</a>
+              <a class="page__item page__item-active" href="#">Карьера</a>
+            </p>
+            <p class="lang">
+              <a class="page__lang" href="#">Русский</a>
+            </p>
+          </div>
+          <div class="decor__hero">
+            <div class="rect-two decor__item">
+              <img src="img/dots/rectangle-two.svg" alt="rect">
+            </div>
+            <div class=" right decor__item">
+              <img src="img/dots/right.svg" alt="right">
+            </div>
+            <div class="circle decor__item">
+              <img src="img/dots/circle-hero.svg" alt="">
+            </div>
+          </div>
+          <div class="decor line-top">
+            <img src="img/dots/line.svg" alt="line">
+          </div>
+          <div class="decor circle__item">
+            <img src="img/dots/circle.svg" alt="">
+          </div>
+          <div class="hero__inner">
+            <div class="hero__wrapper">
+              <div class="hero__box">
+                <h1 class="hero__title">
+                  Мы нанимаем, потому что растем
+                </h1>
+                <p class="hero__text">
+                  Приходите и вы наверняка останетесь надолго!
+                </p>
+              </div>
+               <a class=" hero__link open__link link" href="#">
+                Перейти к вакансиям
+               </a>
+               <a class=" hero__link link__skill link" href="#">
+                  Показать нам свое CV
+               </a>
+               <div class="mobile__item">
+                 <img src="img/dots/intersect.svg" alt="circle">
+               </div>              
+              <div class="decor line-bottom">
+                <img src="img/dots/line.svg" alt="line">
+              </div>
+            </div>
+            <div class="decor circle__items">
+              <img class="circ__item" src="img/dots/circle-dashed.svg" alt="dashed">
+              <img class="circl__item" src="img/dots/mini-circle.svg" alt="mini">
+            </div>
+          </div>
+          <div class=" decor rect__bottom">
+            <img src="img/dots/rectangle-vert.svg" alt="vert">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="open__vacancies section">
+      <div class="container">
+        <div class="decor open-rect">
+          <img src="img/dots/vacancy-rect.svg" alt="rect">
+        </div>
+        <div class="container__vacancy">
+          <div class="open__vacancies-wrapper">
+            <div class="open__info">
+              <h2 class="after-title title open-title">
+                Открытые вакансии
+              </h2>
+              <div class="open__vacancies-text-inner text">
+                <p class="text__item">
+                  Главная ценность нашей компании - люди. Именно поэтому мы делаем все для того, чтобы наши сотрудники
+                  были уверены, что работают в самой лучшей компании в мире.
+                </p>
+                <p class="text__item">
+                  Мы постоянно нанимаем разработчиков, QA-инженеров, дизайнеров, DevOps-инженеров, проектных и
+                  продуктовых
+                  менеджеров.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper open__vacancy-items">
+              <!-- Slides -->
+              <div class="swiper-slide"> 
+                <a class="open__vacancy-item item-vacancy" href="#">
+                  <p class="item__vacancy-type">Development</p>
+                  <h3 class="item__vacancy-title">Senior PHP developer</h3>
+                  <div class="item__vacancy-img">
+                    <img src="img/job-icon/php.svg" alt="php skill">
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a class="open__vacancy-item item-vacancy" href="#">
+                  <p class="item__vacancy-type">Marketing & Communication</p>
+                  <h3 class="item__vacancy-title">YouTube\Twitch manager</h3>
+                  <div class="item__vacancy-img">
+                    <img src="img/job-icon/youtube.svg" alt="php skill">
+                    <img src="img/job-icon/twitch.svg" alt="php skill">
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide"> 
+                <a class="open__vacancy-item item-vacancy" href="#">
+                  <p class="item__vacancy-type item-hover">Design</p>
+                  <h3 class="item__vacancy-title">Senior UI/UX designer</h3>
+                  <div class="item__vacancy-img">
+                    <img src="img/job-icon/ux.svg" alt="php skill">
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a class="open__vacancy-item item-vacancy" href="#">
+                  <p class="item__vacancy-type">Marketing & Communication</p>
+                  <h3 class="item__vacancy-title">
+                    Support Manager
+                  </h3>
+                  <div class="item__vacancy-img">
+                    <img src="img/job-icon/headphone.svg" alt="php skill">
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a class="open__vacancy-item item-vacancy" href="#">
+                  <p class="item__vacancy-type">Design</p>
+                  <h3 class="item__vacancy-title">
+                    Graphic Designer
+                  </h3>
+                  <div class="item__vacancy-img">
+                    <img src="img/job-icon/pensil.svg" alt="php skill">
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a class="open__vacancy-item item-vacancy" href="#">
+                  <p class="item__vacancy-type item__vacancy-active">Management</p>
+                  <h3 class="item__vacancy-title">
+                    Senior Project manager
+                  </h3>
+                  <div class="item__vacancy-img">
+                    <img src="img/job-icon/youtube.svg" alt="php skill">
+                    <img src="img/job-icon/twitch.svg" alt="php skill">
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide"> 
+                <a class="open__vacancy-item item-vacancy" href="#">
+                  <p class="item__vacancy-type">Design</p>
+                  <h3 class="item__vacancy-title">
+                    3D Artist
+                  </h3>
+                  <div class="item__vacancy-img">
+                    <img src="img/job-icon/3d.svg" alt="php skill">
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a class="open__vacancy-item item-vacancy" href="#">
+                  <p class="item__vacancy-type">Development</p>
+                  <h3 class="item__vacancy-title">Lead React Developer</h3>
+                  <div class="item__vacancy-img">
+                    <img src="img/job-icon/react.svg" alt="php skill">
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+         
+        </div>
+      </div>
+    </section>
+    <section class="team section">
+      <div class="container__fluid">
+        <div class="decor rect">
+          <img src="img/dots/rectangle-vert.svg" alt="rect-vert">
+        </div>
+      </div>
+      
+      <div class="container info__open">
+        <div class="open__steps flex-col">
+          <div class="open__steps-item">
+            <p class="open__steps-numb">Шаг 1</p>
+            <h3 class="open__steps-title">Отправить CV</h3>
+            <p class="open__steps-feed">
+              Среднее время ответа 2
+              рабочих дня
+            </p>
+          </div>
+          <div class="open__steps-item">
+            <p class="open__steps-numb">Шаг 2</p>
+            <h3 class="open__steps-title">Прескрининг</h3>
+            <p class="open__steps-feed">
+              Фидбек в течение 2-х рабочих дней
+            </p>
+          </div>
+          <div class="open__steps-item">
+            <p class="open__steps-numb">Шаг 3</p>
+            <h3 class="open__steps-title">
+              Техническое
+              собеседование
+            </h3>
+            <p class="open__steps-feed">
+              Фидбек в течение 3-х рабочих дней
+            </p>
+          </div>
+          <div class="open__steps-item">
+            <p class="open__steps-numb">Шаг 4</p>
+            <h3 class="open__steps-title">Получение оффера</h3>
+            <p class="open__steps-feed">
+              В течение 3-х рабочих дней
+            </p>
+          </div>
+          <!-- <div class="open__steps-descr step-one">
+            <p>
+              Загрузите свое CV на странице понравившейся вакансии
+            </p>
+          </div> -->
+        </div>
+        <div class="open__info">
+          <div class="decor open__dekor">
+            <img src="img/dots/dots-two.svg" alt="dots">
+          </div>
+            <h2 class="open__title after-title title">
+              Как стать частью MOJAM
+            </h2>
+            <p class="open__info-text">
+              Четыре простых шага отделяют вас от работы над игровыми сервисами, которые любят миллионы геймеров по
+              всему
+              миру
+            </p>
+          <div class="open__info-items">
+            <div class="open__info-item flex-col">
+              <h3 class="open__info-title">Шаг 2.1</h3>
+              <p class="open__info-item-text">
+                В редких случаях мы предлагаем выполнить <span class="priori">оплачиваемое тестовое задание</span>,
+                чтобы убедиться в профессионализме кандидата
+              </p>
+              <div class="feed__item">
+                <p class="open__steps-feed open__info-feed">
+                  от 7 до 14 дней
+                </p>
+              </div>
+            </div>
+            <div class="open__info-item flex-col">
+              <h3 class="open__info-title">Шаг 3.1</h3>
+              <p class="open__info-item-text">
+                Часто, но не всегда, кандидаты проходят <span class="priori">финальное собеседование</span> с CEO или
+                CTO.
+              </p>
+              <div class="feed__item">
+                <p class="open__steps-feed  open__info-feed">
+                  Фидбэк в течение 3-х рабочих дней
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="partners section">
+      <div class="container-fluid">
+        <div class="decor part__dec">
+          <img src="img/dots/rectangle.svg" alt="rect">
+        </div>
+      </div>
+      <div class="container-partner">
+        <h2 class="title parter-title">
+          Партнерская программа
+        </h2>
+        <div class="partner__text-items">
+          <p class="partner__text-item">
+            Если вы не нашли подходящу вакансию для себя - вы можете посоветовать нас cвоим друзьям.
+          </p>
+          <p class="partner__text-item">
+            Мы считаем, что личне рекомендации эффективнее рекламы, поэтому поощряем пользователей, которые
+            приводят нам
+            новых сотрудников
+          </p>
+        </div>
+        <ol class="partner__items">
+          <li class="partner__item">
+            <p class="partner__numb">01</p>
+            <h3 class="partner__title">Свяжитесь с нами</h3>
+            <p class="partner__descr">
+              Отправьте нам ссылку на LinkedIn кандидата и свои контактные данные воспользовавшись формой внизу страницы
+            </p>
+          </li>
+          <li class="partner__item">
+            <p class="partner__numb">02</p>
+            <h3 class="partner__title">Прескрининг</h3>
+            <p class="partner__descr">
+              Если мы заинтересуемся кандидатом, мы направим вам сообщение об этом и будет уведомлять об изменении
+              статуса кандидата
+            </p>
+          </li>
+          <li class="partner__item">
+            <p class="partner__numb">03</p>
+            <h3 class="partner__title">Выплата вознаграждения</h3>
+            <p class="partner__descr">
+              В случае успешного трудоустройства кандидата вы получите существенное
+              вознаграждение
+            </p>
+          </li>
+        </ol>
+      </div>
+    </section>
+    <section class="get__form section">
+      <div class="get__inner">
+        <div class="send">
+          <img class="decor bottom" src="img/dots/rectangle-two.svg" alt="two">
+          <img class="decor top" src="img/dots/rectangle.svg" alt="rect">
+          <div class="send__us">
+            <h3 class="send__us-title after-title title">
+              Отправить CV
+            </h3>
+            <p class="send__us-text">
+              Не нашли подходящей вакансии? Не расстраивайтесь. Оставьте свое CV и наш HR свяжется с вами, если у нас
+              откроется новая позиция
+            </p>
+            <form class="send__form">
+              <div class="send__box">
+                <label class="send__label">
+                  <input class="send__input" type="text" placeholder="Имя и Фамилия">
+                </label>
+                <label class="send__label">
+                  <input class="send__input" type="email" placeholder="Емайл">
+                </label>
+              </div>
+              <div class="load__box">
+                <label class="load__title">
+                  Загрузить CV
+                  <input class="load" type="file">
+                </label>
+                <p class="load__info">
+                  Размер файла не более 2 Мб
+                </p>
+              </div>
+              <textarea class="send__commit" placeholder="Ваш комментарий"></textarea>
+              <div class="link__box">
+                <label class="send-checkbox">
+                  <input class="checkbox__field" type="checkbox">
+                  <span class="send-checkbox__content checkbox__content">
+                    Я согласен с Privacy policy MOJAM
+                  </span>
+                </label>
+                <a class="open__link link send-link" href="#">
+                  Отправить CV
+                </a>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="invite">
+          <div class="invite__wrapper">
+            <h2 class="invite__title title">
+              Порекомендовать друга
+            </h2>
+            <p class="invite__text">
+              У вас есть кого порекомендовать нам? Отправьте его контакт и в случае успешного трудоустройства вы
+              получите вознаграждение
+            </p>
+            <form class="invite__form">
+              <div class="invite__form-box">
+                <label class="invite__label">
+                  <input class="input__item" type="text" placeholder="Ваше имя" required>
+                </label>
+                <label class="invite__label">
+                  <input class="input__item" type="email" placeholder="Ваш емейл" required>
+                </label>
+                <label class="invite__label">
+                  <input class="input__item" type="text" placeholder="Имя и фамилия друга" required>
+                </label>
+                <label class="invite__label">
+                  <input class="input__item" type="tel" placeholder="Контакт друга" required>
+                </label>
+              </div>
+              <div class="load__box">
+                <label class="load__title">
+                  Загрузить CV
+                  <input class="load" type="file">
+                </label>
+                <p class="load__info invite__info">
+                  Размер файла не более 2 Мб
+                </p>
+              </div>
+              <div class="link__box">
+                <label class="send-checkbox">
+                  <input class="checkbox__field" type="checkbox">
+                  <span class="send-checkbox__content checkbox__content">
+                    Я согласен с Privacy policy MOJAM
+                  </span>
+                </label>
+                <a class="link invite-link" href="#">
+                  Отправить CV
+                </a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__box">
+        <div class="footer__copy">
+          <div class="logo">
+            <a class="logo__link" href="#">
+              <img class="logo__icon" src="img/logo.svg" loading="lazy" alt="Логотип компании">
+            </a>
+          </div>
+          <div class="copy">
+            <p class="copy__text">
+              Copyright © 2015 - 2021.
+              All Rights Reserved.
+            </p>
+          </div>
+        </div>
+        <div class="footer__menu">
+          <ul class="list list-reset">
+            <li class="nav__item"><a href="#" class="nav__link">
+                Карьера в компании
+              </a>
+            </li>
+            <li class="nav__item"><a href="#" class="nav__link">
+                Бонусы сотрудникам
+              </a>
+            </li>
+          </ul>
+          <ul class="list__items list-reset">
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                Наша команда
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                Истории
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                О нас
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__contact">
+          <ul class="contact__items list-reset">
+            <li class="contact__item"><a class="contact__link" href="#">Контакты</a></li>
+            <li class="contact__item"><a class="contact__link" href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
